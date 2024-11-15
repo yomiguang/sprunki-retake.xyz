@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprunki Retake - Reimagined Musical Experience</title>
+    <meta name="description" content="Discover Sprunki Retake, the revolutionary rhythm game that combines spooky sounds with engaging gameplay. Create unique musical experiences in this reimagined version.">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/public/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body class="bg-sprunki-dark text-sprunki-light">
+    <!-- Header -->
+    <header class="fixed w-full top-0 z-50 bg-sprunki-dark/80 backdrop-blur-md border-b border-sprunki-accent/10">
+        <nav class="max-w-7xl mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-2xl font-bold bg-gradient-to-r from-sprunki-accent to-sprunki-hover bg-clip-text text-transparent">Sprunki Retake</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#game" class="hover:text-sprunki-accent transition-colors">Play</a>
+                    <a href="#features" class="hover:text-sprunki-accent transition-colors">Features</a>
+                    <a href="#how-it-works" class="hover:text-sprunki-accent transition-colors">How It Works</a>
+                    <a href="#testimonials" class="hover:text-sprunki-accent transition-colors">Testimonials</a>
+                    <a href="#faq" class="hover:text-sprunki-accent transition-colors">FAQ</a>
+                </div>
+                <a href="#game" class="bg-gradient-to-r from-sprunki-accent to-sprunki-hover px-6 py-2 rounded-full text-white hover:opacity-90 transition-all duration-300">Play Now</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Game Section -->
+    <section id="game" class="pt-24 pb-12 px-4 bg-gradient-to-b from-sprunki-dark via-sprunki-surface to-black">
+        <div class="max-w-6xl mx-auto">
+            <div class="rounded-2xl overflow-hidden shadow-2xl bg-black/50 backdrop-blur relative">
+                <iframe src="https://wowtbc.net/sprunkin/retake/index.html" class="w-full aspect-video border-0" id="gameFrame" allowfullscreen></iframe>
+                <button onclick="toggleFullscreen()" class="absolute bottom-4 right-4 bg-black/60 hover:bg-sprunki-accent/90 p-3 rounded-xl transition-all duration-300 backdrop-blur-sm border border-white/10 hover:border-white/20 shadow-lg" title="Toggle Fullscreen">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 3h6m0 0v6m0-6L14 10m-4 4L3 21m0-6v6m0 0h6m11-11v6m0 0h-6" />
+                    </svg>
+                </button>
+            </div>
+            <div class="mt-8 text-center">
+                <h2 class="text-3xl font-bold mb-4 bg-gradient-to-r from-sprunki-accent to-sprunki-hover bg-clip-text text-transparent">Play Sprunki Retake Online For Free</h2>
+                <p class="text-lg text-sprunki-light/80">Sprunki Retake is a reimaging and retake of the original Sprunki game! This cool game mixes rhythm challenges with creepy elements to give you a one-of-a-kind experience. No download required - Play directly in your browser!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="py-12 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="rounded-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="/public/images/sprunki_retake_1.png" alt="Sprunki Retake Game play" class="w-full h-full object-cover">
+                </div>
+                <div class="rounded-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="/public/images/sprunki_retake_2.png" alt="Character Selection" class="w-full h-full object-cover">
+                </div>
+                <div class="rounded-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <img src="/public/images/sprunki_retake_3.png" alt="Music Creation" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 px-4" id="features">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-sprunki-accent to-sprunki-hover bg-clip-text text-transparent">Game Features</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <div class="bg-sprunki-surface/50 p-6 rounded-2xl mb-4 border border-sprunki-accent/20 hover:border-sprunki-accent/40 transition-colors">
+                        <h3 class="text-2xl font-semibold mb-4 text-sprunki-accent">Spooky Soundscape</h3>
+                        <p>Create eerie masterpieces with our collection of haunting sound effects and atmospheric beats.</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="bg-sprunki-surface/50 p-6 rounded-2xl mb-4 border border-sprunki-accent/20 hover:border-sprunki-accent/40 transition-colors">
+                        <h3 class="text-2xl font-semibold mb-4 text-sprunki-accent">Unique Characters</h3>
+                        <p>Twenty distinct characters, each bringing their own spooky sounds to your musical creation.</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="bg-sprunki-surface/50 p-6 rounded-2xl mb-4 border border-sprunki-accent/20 hover:border-sprunki-accent/40 transition-colors">
+                        <h3 class="text-2xl font-semibold mb-4 text-sprunki-accent">Intuitive Gameplay</h3>
+                        <p>Simple drag-and-drop interface makes creating haunting melodies accessible to all skill levels.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-20 px-4 bg-sprunki-surface/30" id="how-it-works">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-sprunki-accent to-sprunki-hover bg-clip-text text-transparent">How It Works</h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="relative">
+                    <div class="bg-sprunki-surface/50 p-6 rounded-2xl border border-sprunki-accent/20">
+                        <span class="absolute -top-4 -left-4 w-12 h-12 bg-sprunki-accent rounded-full flex items-center justify-center text-2xl font-bold">1</span>
+                        <h3 class="text-xl font-semibold mb-4 mt-4 text-sprunki-accent">Choose Characters</h3>
+                        <p>Select from our unique roster of spooky characters.</p>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-sprunki-surface/50 p-6 rounded-2xl border border-sprunki-accent/20">
+                        <span class="absolute -top-4 -left-4 w-12 h-12 bg-sprunki-accent rounded-full flex items-center justify-center text-2xl font-bold">2</span>
+                        <h3 class="text-xl font-semibold mb-4 mt-4 text-sprunki-accent">Drag & Drop</h3>
+                        <p>Place characters on the stage to start creating music.</p>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-sprunki-surface/50 p-6 rounded-2xl border border-sprunki-accent/20">
+                        <span class="absolute -top-4 -left-4 w-12 h-12 bg-sprunki-accent rounded-full flex items-center justify-center text-2xl font-bold">3</span>
+                        <h3 class="text-xl font-semibold mb-4 mt-4 text-sprunki-accent">Mix Sounds</h3>
+                        <p>Combine different sound elements to create your masterpiece.</p>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-sprunki-surface/50 p-6 rounded-2xl border border-sprunki-accent/20">
+                        <span class="absolute -top-4 -left-4 w-12 h-12 bg-sprunki-accent rounded-full flex items-center justify-center text-2xl font-bold">4</span>
+                        <h3 class="text-xl font-semibold mb-4 mt-4 text-sprunki-accent">Share</h3>
+                        <p>Share your spooky creations with the community.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 px-4" id="testimonials">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-sprunki-accent to-sprunki-hover bg-clip-text text-transparent">Player Testimonials</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-sprunki-surface/50 p-8 rounded-2xl border border-sprunki-accent/20">
+                    <div class="flex items-center mb-4">
+                        <div class="text-sprunki-accent">★★★★★</div>
+                    </div>
+                    <p class="mb-4">"Sprunki Retake completely changed how I think about music creation. The spooky elements add such a unique twist!"</p>
+                    <p class="text-sprunki-accent">- Sarah M.</p>
+                </div>
+                <div class="bg-sprunki-surface/50 p-8 rounded-2xl border border-sprunki-accent/20">
+                    <div class="flex items-center mb-4">
+                        <div class="text-sprunki-accent">★★★★★</div>
+                    </div>
+                    <p class="mb-4">"The most innovative music game I've played. The character designs are incredible and the sounds are haunting!"</p>
+                    <p class="text-sprunki-accent">- Mike R.</p>
+                </div>
+                <div class="bg-sprunki-surface/50 p-8 rounded-2xl border border-sprunki-accent/20">
+                    <div class="flex items-center mb-4">
+                        <div class="text-sprunki-accent">★★★★★</div>
+                    </div>
+                    <p class="mb-4">"Perfect blend of horror and music. I've spent hours creating different spooky compositions!"</p>
+                    <p class="text-sprunki-accent">- Alex K.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-20 px-4" id="faq">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-sprunki-accent to-sprunki-hover bg-clip-text text-transparent">Frequently Asked Questions</h2>
+            <div class="space-y-6">
+                <div class="bg-sprunki-surface/50 p-6 rounded-2xl border border-sprunki-accent/20">
+                    <h3 class="text-xl font-semibold mb-2 text-sprunki-accent">What is Sprunki Retake?</h3>
+                    <p>Sprunki Retake is a unique musical experience that combines rhythm gameplay with spooky elements, allowing players to create haunting melodies through character interactions.</p>
+                </div>
+                <div class="bg-sprunki-surface/50 p-6 rounded-2xl border border-sprunki-accent/20">
+                    <h3 class="text-xl font-semibold mb-2 text-sprunki-accent">Do I need musical experience?</h3>
+                    <p>No musical experience is required! Our intuitive interface makes it easy for anyone to create amazing sound compositions.</p>
+                </div>
+                <div class="bg-sprunki-surface/50 p-6 rounded-2xl border border-sprunki-accent/20">
+                    <h3 class="text-xl font-semibold mb-2 text-sprunki-accent">Can I play on mobile devices?</h3>
+                    <p>Yes! Sprunki Retake is fully optimized for both desktop and mobile devices, allowing you to create music anywhere.</p>
+                </div>
+                <div class="bg-sprunki-surface/50 p-6 rounded-2xl border border-sprunki-accent/20">
+                    <h3 class="text-xl font-semibold mb-2 text-sprunki-accent">How do I share my creations?</h3>
+                    <p>You can easily share your musical creations through our community platform or export them to share on social media.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-4 bg-black/80">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-sprunki-accent">Sprunki Retake</h3>
+                    <p class="text-sm text-sprunki-light/60">Experience the perfect blend of horror and music in this unique game.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-sm text-sprunki-light/60">
+                        <li><a href="#game" class="hover:text-sprunki-accent">Play Now</a></li>
+                        <li><a href="#features" class="hover:text-sprunki-accent">Features</a></li>
+                        <li><a href="#how-it-works" class="hover:text-sprunki-accent">How It Works</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Support</h3>
+                    <ul class="space-y-2 text-sm text-sprunki-light/60">
+                        <li><a href="#faq" class="hover:text-sprunki-accent">FAQ</a></li>
+                        <li><a href="#" class="hover:text-sprunki-accent">Contact Us</a></li>
+                        <li><a href="/privacy.html" class="hover:text-sprunki-accent">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Connect</h3>
+                    <ul class="space-y-2 text-sm text-sprunki-light/60">
+                        <li><a href="#" class="hover:text-sprunki-accent">Twitter</a></li>
+                        <li><a href="#" class="hover:text-sprunki-accent">Discord</a></li>
+                        <li><a href="#" class="hover:text-sprunki-accent">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-sprunki-accent/10 pt-8 text-center text-sm text-sprunki-light/60">
+                <p>© 2024 Sprunki Retake. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Add this script before the closing body tag -->
+    <script>
+    function toggleFullscreen() {
+        const iframe = document.getElementById('gameFrame');
+        
+        if (!document.fullscreenElement) {
+            if (iframe.requestFullscreen) {
+                iframe.requestFullscreen();
+            } else if (iframe.webkitRequestFullscreen) { /* Safari */
+                iframe.webkitRequestFullscreen();
+            } else if (iframe.msRequestFullscreen) { /* IE11 */
+                iframe.msRequestFullscreen();
+            }
+        } else {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.webkitExitFullscreen) { /* Safari */
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) { /* IE11 */
+                document.msExitFullscreen();
+            }
+        }
+    }
+    </script>
+</body>
+</html>
